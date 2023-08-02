@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import hero from "../src/images/hero.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="header">
+        <Header />
+      </div>
+      <div className="hero-img">
+        <img src={hero} alt="ishero?" />
+      </div>
+      <div className="cards">
+        <img src="../images/meetbarbers.jpg" alt="barbers" />
+      </div>
+      <div className="main">
+        <img src="../images/chair.jpg" alt="barbers-chair" />
+        <h3>Small about paragraph</h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+          architecto ipsa exercitationem harum tempora velit? Repudiandae
+          mollitia aliquid molestias explicabo vitae, adipisci impedit dolorum,
+          sed ratione ullam repellat nesciunt fuga.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <button>Book appointment</button>
+      </div>
     </div>
   );
 }
