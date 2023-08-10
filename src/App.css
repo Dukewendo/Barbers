@@ -1,5 +1,7 @@
 
-
+body {
+    background-color:bisque;
+}
 
 
 
@@ -16,6 +18,8 @@
 .header-container {
     display: flex;
     gap: 50px;
+    color: white;
+    background-color: darkslategray;
     
 }
 
@@ -27,6 +31,21 @@
     list-style: none;
 }
 
-.header-title {
-    background-color: rgb(58, 58, 133);
+/* barber-cards */
+
+.barber-cards {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    
+}
+
+.card-image {
+    width: 25%;
+    height: 25%;
+}
+
+.card-image-tools {
+    width: 10%;
+    
 }
