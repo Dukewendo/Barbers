@@ -2,6 +2,14 @@ body {
   background-color: black;
 }
 
+p {
+  color: aliceblue;
+}
+
+li {
+  list-style: none;
+}
+
 /* hero img */
 .hero-img {
   display: flex;
@@ -24,12 +32,16 @@ body {
   margin-left: 20px;
 }
 
-.header-menu {
+.header-list {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 30px;
-  gap: 10px;
-  list-style: none;
+  justify-content: space-around;
+  gap: 20px;
+  margin-right: 10px;
+}
+
+.nav-item {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 /* barber-cards */

@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./Header";
 
-export default function Barbers() {
+export default function Contact() {
   return (
     <div>
       <Header />
-      <p>Barber card profiles</p>
+      <p>Contact page</p>
     </div>
   );
 }
