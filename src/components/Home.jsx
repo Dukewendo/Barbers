@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import './home.css'
 
 //images
 import hero from "../images/hero.jpg"
@@ -22,8 +23,7 @@ export default function Home() {
         <img className="card-image-tools" src={tools} alt="barbers-tools" />
       </div>
       <div className="main">
-        <h3>Small about paragraph</h3>
-        <p>
+        <p className="home-p" >
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
           architecto ipsa exercitationem harum tempora velit? Repudiandae
           mollitia aliquid molestias explicabo vitae, adipisci impedit dolorum,

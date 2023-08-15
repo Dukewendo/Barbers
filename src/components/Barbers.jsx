@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import './barbers.css';
 
 export default function Barbers() {
   return (

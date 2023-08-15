@@ -1,22 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./header.css";
+
+import logo from "../images/logo.png";
 
 export default function Header() {
   return (
     <div className="header-container">
-      <NavLink className="nav-item" to="/">
-        <h2 className="header-title">Joe's Barber Shop</h2>
-      </NavLink>
-
       <header>
-        <nav className="header-nav">
+        <nav className="nav-container" >
+          <NavLink to="/">
+            <img className="header-logo" alt="shop-logo" src={logo}></img>
+          </NavLink>
           <ul className="header-list">
             <li>
-              <NavLink
-                className="nav-item"
-                to="/about"
-                style={{ color: "inherit", textDecoration: "inherit" }}
-              >
+              <NavLink className="nav-item" to="/about">
                 About
               </NavLink>
             </li>

@@ -1,0 +1,25 @@
+p {
+  font-family: "Dancing Script", cursive;
+  font-family: "PT Serif", serif;
+  font-size: small;
+  margin-top: 10px;
+  margin-right: 10px;;
+
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+.about-img {
+  width: 75%;
+  margin-top: 50px;
+}
+
+.about-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
