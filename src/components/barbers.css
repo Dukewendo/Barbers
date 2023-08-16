@@ -1,5 +1,7 @@
 .profile-container {
     display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 4;
 }
 
 .barber-header , h3 {
