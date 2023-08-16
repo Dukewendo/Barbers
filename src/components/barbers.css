@@ -1,13 +1,43 @@
 .profile-container {
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1fr);
 }
 
-.barber-header , h3 {
-    color: white;
+.barbpic1,
+barbp2,
+barbpic3 {
+  grid-column-start: 2;
+}
+
+.barbp1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.barbpic2,
+barbpic4 {
+  grid-column-start: 1;
+}
+
+.barbp3 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.barbp4 {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+.barber-header,
+h3 {
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 .profile-pic {
-    width: 25%;
+  width: 25%;
 }
+
