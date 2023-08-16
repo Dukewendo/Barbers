@@ -12,7 +12,7 @@ export default function Barbers() {
   return (
     <div>
       <Header />
-      <h3 className="barber-header">Meet the team!</h3>
+      <h3 className="barber-header">Crew profiles</h3>
       <div className="profile-container">
         <img className="profile-pic barbpic1" src={barber1} alt="barber-profile1" />
         <p className="barber-p barbp1">

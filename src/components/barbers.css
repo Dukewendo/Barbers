@@ -2,11 +2,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(1fr);
+  gap: 20px;
 }
 
 .barbpic1,
-barbp2,
-barbpic3 {
+.barbp2,
+.barbpic3,
+.barbp4 {
   grid-column-start: 2;
 }
 
@@ -16,7 +18,7 @@ barbpic3 {
 }
 
 .barbpic2,
-barbpic4 {
+.barbpic4 {
   grid-column-start: 1;
 }
 
@@ -25,9 +27,19 @@ barbpic4 {
   grid-row-start: 3;
 }
 
-.barbp4 {
-  grid-column-start: 2;
-  grid-row-start: 4;
+.barbpic1,
+.barbpic3 {
+  justify-items: start;
+}
+
+.barber-p {
+  place-self: center;
+  margin: 5px;
+}
+
+.barbpic2,
+.barbpic4 {
+  justify-self: end;
 }
 
 .barber-header,
@@ -40,4 +52,3 @@ h3 {
 .profile-pic {
   width: 25%;
 }
-
