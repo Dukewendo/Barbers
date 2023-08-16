@@ -1,0 +1,11 @@
+.profile-container {
+    display: grid;
+}
+
+.barber-header , h3 {
+    color: white;
+}
+
+.profile-pic {
+    width: 25%;
+}
