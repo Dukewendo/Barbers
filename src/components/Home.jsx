@@ -29,7 +29,6 @@ export default function Home() {
           mollitia aliquid molestias explicabo vitae, adipisci impedit dolorum,
           sed ratione ullam repellat nesciunt fuga.
         </p>
-        <button>Book appointment</button>
       </div>
     </div>
   );

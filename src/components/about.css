@@ -4,7 +4,6 @@ p {
   font-size: small;
   margin-top: 10px;
   margin-right: 10px;;
-
 }
 
 .about-container {
@@ -16,6 +15,7 @@ p {
 .about-img {
   width: 75%;
   margin-top: 50px;
+  border-radius: 10px;
 }
 
 .about-p {

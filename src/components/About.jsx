@@ -8,8 +8,10 @@ export default function About() {
   return (
     <div>
       <Header />
+      <h3 className="page-title">Our goals</h3>
       <div className="about-container">
         <img className="about-img" src={aboutpic} alt="bighair" />
+
         <p className="about-p">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
           unde maxime, vero vel repellendus nisi harum sed similique expedita
