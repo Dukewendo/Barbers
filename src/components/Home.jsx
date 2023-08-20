@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css"
 import Header from "./Header";
 import './home.css'
 
@@ -8,7 +10,18 @@ import barbers from "../images/meetbarbers.jpg"
 import chair from "../images/chair.jpg"
 import tools from "../images/barbertools.jpg"
 
+
+
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init();
+    // AOS.refresh();
+  }, []);
+
+
+
+
   return (
     <div className="App">
       <div className="header">
@@ -18,9 +31,9 @@ export default function Home() {
         <img src={hero} alt="ishero?" />
       </div>
       <div className="barber-cards">
-        <img className="card-image" src={barbers} alt="barbers" />
-        <img className="card-image" src={chair} alt="barbers-chair" />
-        <img className="card-image-tools" src={tools} alt="barbers-tools" />
+        <img className="card-image" data-aos ="fade-right" data-aos-duration="2000" src={barbers} alt="barbers" />
+        <img className="card-image" data-aos ="ease-in" data-aos-duration="2000" src={chair} alt="barbers-chair" />
+        <img className="card-image-tools" data-aos ="fade-left" data-aos-duration="2000" src={tools} alt="barbers-tools" />
       </div>
       <div className="main">
         <p className="home-p" >
