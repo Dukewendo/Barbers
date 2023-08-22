@@ -18,7 +18,13 @@ export default function About() {
           saepe cum fugit, animi perspiciatis omnis ex id blanditiis illum
           minima!
         </p>
-        <img className="about-img" src={aboutpic2} alt="tools" />
+        <img className="about-img2" src={aboutpic2} alt="tools" />
+
+        <p className="about-p2">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ab
+          magnam sint pariatur optio provident, asperiores necessitatibus
+          nesciunt omnis illo?
+        </p>
       </div>
     </div>
   );
