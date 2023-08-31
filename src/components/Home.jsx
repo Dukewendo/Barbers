@@ -28,7 +28,7 @@ export default function Home() {
         <Header />
       </div>
       <div className="hero-img">
-        <img src={hero} alt="ishero?" />
+        <img className="hero1" data-aos ="fade-up" data-aos-duration="5000" src={hero} alt="ishero?" />
       </div>
       <div className="barber-cards">
         <img className="card-image" data-aos ="fade-right" data-aos-duration="2000" src={barbers} alt="barbers" />

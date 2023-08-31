@@ -1,39 +1,31 @@
 import React from "react";
 import Header from "./Header";
 import "./contact.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //images
 import phone from "../images/phone.png";
-import chat from "../images/speech-bubble.png";
-import form from "../images/form.png";
+import email from "../images/email.png";
 
 export default function Contact() {
   return (
     <div>
       <Header />
-      <h3 className="page-title">Contact us</h3>
+      <h3 className="page-title" data-aos="fade-right" data-aos-duration="5000">
+        Contact
+      </h3>
 
       <div className="contact-container">
-        <div className="telephone-container">
-          <img className="mobile-pic" src={phone} alt="mobile-phone" />
-          <p className="mobile-number">Call us xxxxxxxxxxx</p>
-        </div>
+        <button className="book-button">BOOK APPOINTMENT</button>
+        <div className="contact-info">
+          <h3 className="contact-header">CONTACT UNCLE B's</h3>
+          <img src={phone} className="mobile-pic" alt="phone" />
+          <img src={email} className="mail-pic" alt="email" />
 
-        <div className="chat-container">
-          <img className="chat-pic" src={chat} alt="chat-bubble" />
-          <p className="livechat">Live chat</p>
         </div>
-        <div className="form-container">
-          <img className="form-pic" src={form} alt="contact-form" />
-          <p className="contactform">Send email</p>
-        </div>
-        <div className="opening-hours">
-          <p className="timep">Opening hours:</p>
-          <p className="timep2">Mon-Fri: 8am-6pm</p>
-          <p className="timep3">Sat: 10am-4pm</p>
-        </div>
+        <p className="contact-info"></p>
       </div>
-     
     </div>
   );
 }
