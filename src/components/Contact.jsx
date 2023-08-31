@@ -39,7 +39,6 @@ export default function Contact() {
             <p>Sun 9AM - 5PM</p>
           </div>
         </div>
-        <p className="contact-info"></p>
       </div>
     </div>
   );
