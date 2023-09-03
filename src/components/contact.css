@@ -1,48 +1,75 @@
-.mobile-pic, .mail-pic {
-    width: 25%;
+.mobile-pic {
+  width: 15%;
+}
+
+.mail-pic {
+  width: 15%;
 }
 
 .contact-container {
-    margin-top: 70px;
-    margin-right: 20px;
-    gap: 20px;
-    display: grid;
-    grid-template-columns: 150px auto;
-    grid-template-rows: auto;
+  margin-top: 70px;
+  margin-right: 20px;
+  gap: 20px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 150px auto;
+  grid-template-rows: auto;
 }
 
-.telephone-container, .chat-container, .form-container {
-    display: grid;
-    place-items: center;
+.telephone-container,
+.chat-container,
+.form-container {
+  display: grid;
+  place-items: center;
 }
 
 .opening-hours {
-    grid-row-start: 2;
-    grid-column-start: 2;
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.button-container {
+    grid-column-start: 3;
+    justify-content: center;
 }
 
 .book-button {
-    height: 50px;
-    width: auto;
-    grid-column-start: 3;
-    grid-row-start: 1;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100px;
 }
 
 .contact-info {
-    grid-column-start: 3;
-    grid-row-start: 2;
+  grid-column-start: 3;
+  grid-row-start: 2;
 }
 
 .phone-details-container {
-    display: flex;
+  display: flex;
+  justify-content: space-around;
 }
 
 .email-details-container {
-    display: flex;
+  display: flex;
+  justify-content: space-around;
 }
 
 .opening-time-container {
-    border: 1px;
-    border-style: solid;
-    border-color: white;
+  margin: 5px;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.weekday-times {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
 }
