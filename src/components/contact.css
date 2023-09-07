@@ -1,62 +1,18 @@
-.mobile-pic {
-  width: 40%;
-}
-
-.mail-pic {
-  width: 50%;
+.contact-page-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
 }
 
 .contact-container {
-  margin-top: 70px;
-  margin-right: 20px;
-  gap: 5px;
-  display: grid;
-  place-items: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-}
-
-.main-map {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-row-start: 2;
 }
 
 .contact-info {
-  grid-column-start: 4;
-}
-
-.opening-hours {
-  grid-row-start: 2;
   grid-column-start: 2;
-}
-
-.button-container {
-  grid-column-start: 4;
-  justify-content: center;
-}
-.phone-details-container {
-  display: grid;
-  grid-template-columns: 2;
-}
-
-.mobile-number {
-  grid-column-start: 2;
-}
-
-.email-details-container {
-  display: grid;
-  grid-template-columns: 2;
-}
-
-.email-address {
-  grid-column-start: 2;
-}
-
-.small-address {
-  display: flex;
-  justify-content: center;
+  grid-row-start: 1;
 }
 
 .book-button {

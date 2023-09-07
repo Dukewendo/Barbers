@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./Header";
 import "./contact.css";
 import AOS from "aos";
@@ -9,14 +9,18 @@ import phone from "../images/small-phone.png";
 import email from "../images/small-email.png";
 
 export default function Contact() {
+  useEffect(() => {
+    AOS.init();
+    // AOS.refresh();
+  }, []);
+
   return (
     <div>
       <Header />
       <h3 className="page-title" data-aos="fade-right" data-aos-duration="5000">
         Contact
       </h3>
-
-      <div className="contact-container">
+      <div className="contact-page-container">
         <iframe
           className="main-map"
           title="map"
@@ -27,6 +31,7 @@ export default function Contact() {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        <div className="contact-container"></div>
 
         <div className="button-container">
           <button className="book-button">
