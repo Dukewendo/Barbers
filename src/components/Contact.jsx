@@ -21,25 +21,25 @@ export default function Contact() {
         Contact
       </h3>
       <div className="contact-page-container">
-        <iframe
-          className="main-map"
-          title="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7191.31798668985!2d-74.00955153185734!3d40.72733971295217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2suk!4v1693859366799!5m2!1sen!2suk"
-          width="600"
-          height="450"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-        <div className="contact-container"></div>
-
-        <div className="button-container">
-          <button className="book-button">
-            <span>BOOK APPOINTMENT</span>
-          </button>
+        <div className="map-frame">
+          <iframe
+            title="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7191.31798668985!2d-74.00955153185734!3d40.72733971295217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2suk!4v1693859366799!5m2!1sen!2suk"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
 
+        <div className="contact-container"></div>
         <div className="contact-info">
+          <div className="button-container">
+            <button className="book-button">
+              <span>BOOK APPOINTMENT</span>
+            </button>
+          </div>
           <h3 className="contact-header">CONTACT UNCLE B's</h3>
           <p className="small-address">113 Flushing Ave, New York</p>
           <div className="phone-details-container">
