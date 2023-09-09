@@ -1,9 +1,4 @@
-.contact-page-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: auto;
-  justify-items: center;
-}
+/* base styles */
 
 
 .book-button {
@@ -55,4 +50,32 @@
 a:link {
   text-decoration: none;
   color: white;
+}
+
+/* mobiles */
+@media screen and (min-width: 300px) {
+  
+  .contact-page-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+
+  .iframe-map {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+/* desktops */
+@media screen and (min-width: 1200px) {
+  .contact-page-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+  }
+  .iframe-map {
+    width: 600px;
+    height: 450px;
+  }
 }
