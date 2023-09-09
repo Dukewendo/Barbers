@@ -52,6 +52,16 @@ a:link {
   color: white;
 }
 
+.phone-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.email-details-container {
+  display: flex;
+  align-items: center;
+}
+
 /* mobiles */
 @media screen and (min-width: 300px) {
   
@@ -68,7 +78,7 @@ a:link {
 }
 
 /* desktops */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .contact-page-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
