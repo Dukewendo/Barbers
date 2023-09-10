@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MockBarbers/static/css/main.95c04df7.css",
-    "main.js": "/MockBarbers/static/js/main.1f2f1460.js",
+    "main.js": "/MockBarbers/static/js/main.809f2e28.js",
     "static/media/hero.jpg": "/MockBarbers/static/media/hero.4fc5ec0a286185bb98e8.jpg",
     "static/media/chair.jpg": "/MockBarbers/static/media/chair.e35b042414f09dda9a2d.jpg",
     "static/media/logo.png": "/MockBarbers/static/media/logo.4f6c0405ea3ac9b94ac2.png",
@@ -15,10 +15,10 @@
     "static/media/barber4.png": "/MockBarbers/static/media/barber4.979829d8d0fac1f3e954.png",
     "index.html": "/MockBarbers/index.html",
     "main.95c04df7.css.map": "/MockBarbers/static/css/main.95c04df7.css.map",
-    "main.1f2f1460.js.map": "/MockBarbers/static/js/main.1f2f1460.js.map"
+    "main.809f2e28.js.map": "/MockBarbers/static/js/main.809f2e28.js.map"
   },
   "entrypoints": [
     "static/css/main.95c04df7.css",
-    "static/js/main.1f2f1460.js"
+    "static/js/main.809f2e28.js"
   ]
 }
