@@ -1,1 +1,0 @@
-# Barber Shop single page app

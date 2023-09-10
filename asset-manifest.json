@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Barbers/static/css/main.95c04df7.css",
+    "main.js": "/Barbers/static/js/main.3319f6f0.js",
+    "static/media/hero.jpg": "/Barbers/static/media/hero.4fc5ec0a286185bb98e8.jpg",
+    "static/media/chair.jpg": "/Barbers/static/media/chair.e35b042414f09dda9a2d.jpg",
+    "static/media/logo.png": "/Barbers/static/media/logo.4f6c0405ea3ac9b94ac2.png",
+    "static/media/barbertools.jpg": "/Barbers/static/media/barbertools.21123be55626c1a07a83.jpg",
+    "static/media/barber1.png": "/Barbers/static/media/barber1.f7743dc1cc5353388a36.png",
+    "static/media/aboutpic2.png": "/Barbers/static/media/aboutpic2.cbe80c7216b8eaa4fc6c.png",
+    "static/media/aboutpic.png": "/Barbers/static/media/aboutpic.46448a4af4391f296ea8.png",
+    "static/media/meetbarbers.jpg": "/Barbers/static/media/meetbarbers.023e5c980ff7a243a4a0.jpg",
+    "static/media/barber3.png": "/Barbers/static/media/barber3.637c2c21a8dc9c4bcf73.png",
+    "static/media/barber2.png": "/Barbers/static/media/barber2.3938b358fbf212a00422.png",
+    "static/media/barber4.png": "/Barbers/static/media/barber4.979829d8d0fac1f3e954.png",
+    "index.html": "/Barbers/index.html",
+    "main.95c04df7.css.map": "/Barbers/static/css/main.95c04df7.css.map",
+    "main.3319f6f0.js.map": "/Barbers/static/js/main.3319f6f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95c04df7.css",
+    "static/js/main.3319f6f0.js"
+  ]
+}
