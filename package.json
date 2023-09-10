@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Dukewendo.github.io/Barbers",
-  "name": "usedcarweb",
+  "homepage": "http://Dukewendo.github.io/MockBarbers",
+  "name": "mockbarbers",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
