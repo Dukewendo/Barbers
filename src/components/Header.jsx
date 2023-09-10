@@ -10,7 +10,7 @@ export default function Header() {
       <header>
         <nav className="nav-container" >
           <NavLink to="/MockBarbers">
-            <img className="header-logo" alt="shop-logo" src={logo}></img>
+            <img className="header-logo" alt="shop-logo" src={logo} ></img>
           </NavLink>
           <ul className="header-list">
             <li>
